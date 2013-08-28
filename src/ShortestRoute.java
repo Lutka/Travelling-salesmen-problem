@@ -34,7 +34,6 @@ public class ShortestRoute
 		System.out.println("-------------------------------------------------------");
 		bestSolution.printSolution();
 		
-		
 		System.out.println(bestSolution.getTotalDistance());
    }  
    
@@ -68,7 +67,6 @@ public class ShortestRoute
 		 
 		 currentTown = nextTown;
 	   }
-	   
 	   
 	   return new Solution(solution, distance);
    }   
